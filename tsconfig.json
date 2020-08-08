@@ -8,6 +8,5 @@
     "emitDeclarationOnly": true,
     "outDir": "variants"
   },
-  "include": ["variants/**/*.js"],
-  "exclude": [],
+  "include": ["variants/**/*.js"]
 }
