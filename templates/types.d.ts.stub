@@ -1,0 +1,2 @@
+export interface {{NAME}} {{{ CONTENT }}}
+export type {{NAME}}Color ={{{ CTX.color }}};

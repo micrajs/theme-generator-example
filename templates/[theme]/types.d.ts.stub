@@ -1,0 +1,3 @@
+import { {{{ PARENT }}} } from '../{{{ PARENT }}}';
+
+export interface {{{ NAME }}} extends {{{ PARENT }}} {{{ CONTENT }}}

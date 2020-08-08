@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "removeComments": true,
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "emitDeclarationOnly": true,
+    "outDir": "variants"
+  },
+  "include": ["variants/**/*.js"],
+  "exclude": [],
+}
