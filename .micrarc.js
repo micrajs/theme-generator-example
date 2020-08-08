@@ -10,7 +10,7 @@ module.exports = {
           template: join(__dirname, 'templates/index.js.stub'),
         },
       ],
-      interface: [
+      types: [
         {
           type: 'toGenericThemeType',
           source: './themes/light',
