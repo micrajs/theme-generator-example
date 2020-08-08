@@ -17,6 +17,8 @@ This is an example repo of how you can structure and use Micra CLI's theme gener
 
 ## Install dependencies
 
+After cloning the repository, run:
+
 ```sh
 yarn
 ```
