@@ -33,16 +33,6 @@ module.exports = {
       ],
       light: [
         {
-          type: 'toThemeType',
-          source: './themes/light',
-          path: './light/types.d.ts',
-          template: join(__dirname, 'templates/[theme]/types.d.ts.stub'),
-          variables: {
-            PARENT: 'Theme',
-            NAME: 'LightTheme',
-          },
-        },
-        {
           type: 'toCssVariables',
           source: './themes/light',
           path: './light/LightTheme.css',
@@ -67,6 +57,16 @@ module.exports = {
           template: join(__dirname, 'templates/[theme]/[theme].js.stub'),
           variables: {
             NAME: 'lightTheme',
+          },
+        },
+        {
+          type: 'toThemeType',
+          source: './themes/light',
+          path: './light/types.d.ts',
+          template: join(__dirname, 'templates/[theme]/types.d.ts.stub'),
+          variables: {
+            PARENT: 'Theme',
+            NAME: 'LightTheme',
           },
         },
       ],
