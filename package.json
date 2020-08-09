@@ -10,7 +10,7 @@
   "scripts": {
     "build": "yarn rimraf variants && yarn build:theme && yarn build:types",
     "build:theme": "yarn micra theme:build variants",
-    "build:types": "yarn tsc variants/**/*.js --declaration --strict --allowJs --emitDeclarationOnly --outDir variants",
+    "build:types": "yarn tsc -p tsconfig.json",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
     "lint": "yarn lint:cache --fix",
     "lint:no-cache": "eslint 'themes/**/*.{js,jsx,ts,tsx}'",
